@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listview2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinkCategoryActivity">
+
+    <ListView
+        android:id="@+id/list_drinks"
+        style="@android:style/Widget.DeviceDefault.Light.ListView.DropDown"
+        android:layout_width="347dp"
+        android:layout_height="522dp"
+        android:layout_marginTop="20dp"
+        android:outlineProvider="bounds"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:scrollbarStyle="outsideInset"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/heading"
+        style="@android:style/Widget.Holo.Light.TextView"
+        android:layout_width="307dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:overScrollMode="ifContentScrolls"
+        android:password="false"
+        android:phoneNumber="false"
+        android:soundEffectsEnabled="false"
+        android:text="@string/drink"
+        android:textAlignment="center"
+        android:textColor="#071047"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

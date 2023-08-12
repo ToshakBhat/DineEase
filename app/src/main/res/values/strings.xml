@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DineEase-Makes your Dining easy</string>
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Food</item>
+    </string-array>
+    <string name="drink"></string>
+    <string name="order">ORDER</string>
+</resources>
